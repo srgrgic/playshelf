@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #14161c; color: #eee; }
+header { padding: 1.5rem; background: #1d2029; border-bottom: 1px solid #2a2d3a; }
+header h1 { margin: 0; font-size: 1.8rem; }
+header p { margin: .3rem 0 0; color: #aaa; }
+main { padding: 1.5rem; max-width: 1100px; margin: 0 auto; }
+#pretraga { width: 100%; padding: .8rem 1rem; font-size: 1rem; border-radius: 8px; border: none; background: #1d2029; color: #eee; margin-bottom: 1.5rem; }
+.mreza { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem; }
+.kartica { background: #1d2029; border-radius: 8px; overflow: hidden; transition: transform .2s; }
+.kartica:hover { transform: translateY(-3px); }
+.kartica img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.kartica h3 { font-size: .95rem; margin: .6rem; }
+.kartica p { margin: 0 .6rem .6rem; color: #aaa; font-size: .85rem; }
